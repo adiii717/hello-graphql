@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: adiii717/hello-graphql
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
