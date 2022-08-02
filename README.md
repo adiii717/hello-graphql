@@ -23,6 +23,12 @@ graphql-service     LoadBalancer   10.100.211.211   a1ca92fa549f641d4b954b72ad2d
 
 ```
 
+# Port forwarding
+
+```shell
+ kubectl port-forward svc/graphql-service-helm-chart 8080:80
+ ```
+
 # Docker
 
 ```
